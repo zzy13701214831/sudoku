@@ -4,7 +4,7 @@ function checkArray(array) {
 	const marks = new Array(length);
 	marks.fill(true);
 
-	for (let i = 0; i < length - 1; i++) {
+	for (let i = 0; i < length; i++) {
 		if (!marks[i]) {
 			continue;
 		}

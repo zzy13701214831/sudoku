@@ -502,7 +502,7 @@ function checkArray(array) {
 	var marks = new Array(length);
 	marks.fill(true);
 
-	for (var i = 0; i < length - 1; i++) {
+	for (var i = 0; i < length; i++) {
 		if (!marks[i]) {
 			continue;
 		}
